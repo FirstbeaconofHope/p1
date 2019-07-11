@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 13px;
+}
+
+li:hover {
+  border-bottom: 1px solid gray;
+}
+
+#nav-right {
+  display: inline-block;
+  position: fixed;
+  right: 20px;
+}
+
+#nav {
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+#google-input {
+  height: 45px;
+  width: 580px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  position: relative;
+  padding-left: 15px;
+  font-size: 20px;
+  top: 30px;
+  outline: none;
+}
+
+#google-input:hover {
+  box-shadow: 0 5px 6px 3px lightgrey;
+}
+
+#google-input:focus {
+  box-shadow: 0 5px 6px 3px lightgrey;
+}
+
+#button-container {
+  position: relative;
+  top: 55px;
+}
+
+button {
+  font-size: 16px;
+  border: none;
+  height: 40px;
+  width: 160px;
+  margin: 0 7px;
+  border-radius: 20px;
+  color: gray;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  border: 1px outset darkgray;
+  color: black;
+  position: relative;
+  top:-2.5px;
+}
+
+button:active {
+  top:0.3px;
+}
+
+.seprate-nav-items {
+  margin-right: 15px;
+}
+
+#blue-symbol {
+  height: 20px;
+  width: 20px;
+  color: white;
+  background-color: pink;
+  border-radius: 50%;
+  padding-left: 8px;
+  padding-top: 4px;
+  border: none;
+  line-height: 18px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 1px;
+  left: 0;
+  padding-left: 10px;
+  display: inline-block;
+  background-color: lightgrey;
+  width: 100%;
+  height: 30px;
+  padding-top: 10px;
+}
+
+#bc {
+  background-color: lightgrey;
+}
+
+#footer-right {
+  position: fixed;
+  right: 10px;
+  bottom: 1px;
+  height: 30px;
+  padding-top: 10px;
+}
+
+.footer-items {
+  margin-left: 12px;
+}
+
+.google-h1 {
+  font-size: 84px;
+}
+
+.google-main {
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+.google-letters {
+  margin-left: -15px;
+}
